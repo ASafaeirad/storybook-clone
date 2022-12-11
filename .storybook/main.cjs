@@ -2,7 +2,7 @@ const svgr = require("vite-plugin-svgr");
 
 /** @type { import('@storybook/builder-vite').StorybookViteConfig } */
 module.exports = {
-  stories: ["../src/**/*.stories.@(ts|tsx)"],
+  stories: ["../src/**/*.stories.tsx"],
   addons: [],
   framework: "@storybook/react",
   core: {
